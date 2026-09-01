@@ -15,11 +15,7 @@ function getInputs() {
   const num1 = Number(input1);
   const num2 = Number(input2);
 
-  if (num1 < 0 || num2 < 0) {
-    errorDisplay.textContent = 'Only positive numbers are allowed!';
-    resultDisplay.textContent = '0';
-    return null;
-  }
+  
 
   return { num1, num2, resultDisplay };
 }
