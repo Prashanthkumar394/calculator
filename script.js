@@ -17,14 +17,7 @@ document.getElementById('addBtn').addEventListener('click', function() {
   const num1 = Number(input1);
   const num2 = Number(input2);
 
-  // 2. Validate for positive numbers (including 0 if desired, or strictly > 0)
-  if (num1 < 0 || num2 < 0) {
-    errorDisplay.textContent = 'Only positive numbers are allowed!';
-    resultDisplay.textContent = '0';
-    return;
-  }
-
-  // 3. Perform addition
+  // 2. Perform addition
   const sum = num1 + num2;
   resultDisplay.textContent = sum;
 });
