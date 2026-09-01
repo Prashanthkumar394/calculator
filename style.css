@@ -47,8 +47,13 @@ input {
   font-size: 1rem;
 }
 
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
 button {
-  width: 100%;
+  flex: 1;
   padding: 0.75rem;
   background-color: #2563eb;
   color: white;
@@ -62,6 +67,14 @@ button {
 
 button:hover {
   background-color: #1d4ed8;
+}
+
+button.sub-btn {
+  background-color: #dc2626;
+}
+
+button.sub-btn:hover {
+  background-color: #b91c1c;
 }
 
 .result-box {
