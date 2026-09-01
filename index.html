@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Positive Addition Calculator</title>
+  <title>Calculator (Add & Subtract)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="calculator-card">
-    <h2>Addition Calculator</h2>
+    <h2>Basic Calculator</h2>
     
     <div class="input-group">
       <label for="num1">First Number:</label>
@@ -21,7 +21,10 @@
       <input type="number" id="num2" min="0" placeholder="Enter positive number">
     </div>
 
-    <button id="addBtn">Add</button>
+    <div class="button-group">
+      <button id="addBtn">Add (+)</button>
+      <button id="subBtn" class="sub-btn">Subtract (-)</button>
+    </div>
 
     <div class="result-box">
       <span>Result:</span>
